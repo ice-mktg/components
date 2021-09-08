@@ -1,0 +1,16 @@
+{
+    "name": "icemt/components",
+    "autoload": {
+        "psr-4": {
+            "Icemt\\Components\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Icemt\\Components\\ComponentsServiceProvider"
+            ]
+        }
+    }
+}
